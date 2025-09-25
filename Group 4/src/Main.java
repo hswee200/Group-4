@@ -20,7 +20,29 @@ public class Main {
             case "w", "x", "y","z"-> System.out.println(9);
             default -> System.out.println("Invalid character");
         }
+        String comb;
+
+        System.out.println("Enter Your Combination : ");
+        comb = input.nextLine();
+        char major = comb.charAt(0);
+        char year = comb.charAt(1);
+
+        switch (major){
+            case 'M' -> System.out.print("Mathematics");
+            case 'C' -> System.out.print("Computer Science");
+            case 'I' -> System.out.print("Information Technology");
+            default -> System.out.print("Invalid Input");
 
 
-    }
+        }
+        switch (year) {
+            case '1' -> System.out.println(" Freshmen");
+            case '2' -> System.out.println(" Sophomore");
+            case '3' -> System.out.println(" Junior");
+            case '4' -> System.out.println(" Senior");
+            default -> System.out.println(" Invalid input");
+
+
+        }
+        }
 }
