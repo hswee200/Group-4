@@ -38,7 +38,7 @@ public class Main {
         switch (year) {
             case '1' -> System.out.println(" Freshmen");
             case '2' -> System.out.println(" Sophomore");
-            case '3' -> System.out.println(" Junior");
+            case '3' -> System.out.println("  Junior");
             case '4' -> System.out.println(" Senior");
             default -> System.out.println(" Invalid input");
 
